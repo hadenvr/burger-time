@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
 /* fonts */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
-  background: #424242;
+  background: #ffffff;
 }
 
 a {
-  color: #ffffff;
+  color: #828286;
   text-decoration: none;
 }
 
 a:hover {
-  color: #03A9F4;
+  color: #000;
 }
 
 /* classes */
 .main-nav {
   display: flex;
   min-height: 50px;
-  background: rgba(0, 0, 0, 0.6);
+  background: #ffffff;
   padding: 0 1rem;
   align-items: center;
 }
@@ -48,7 +48,7 @@ a:hover {
 
 .brand-link {
   font-size: 20px;
-  color: #03A9F4;
+  color: #828286;
 }
 
 /* media query */
@@ -118,3 +118,56 @@ a:hover {
   }
 
 } /* end of media */
+
+.main {
+  background-image: url("https://lh3.googleusercontent.com/406-E70LLQkDZf858Uv0NzSNfexxcIVf6nNcOo1_u0Pd1SX5GoVfJkHaFnYmrXydc-yObICtolu9OQDkspXM=v1-rw-w1440");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #828286;
+}
+
+.main h1 {
+  font-weight: bold;
+  padding-top: 650px;
+  font-size: 25px;
+}
+
+.row {
+  background: #ffffff;
+  color: #828286;
+  text-align: center;
+  padding: 150px;
+}
+
+.one {
+  height: 50vh;
+  text-align: center;
+  background-image: url("https://lh3.googleusercontent.com/JypDw05Ay7KGQwOMf-bJ2I7pHp5zzdtSLIqN6f32C-9r3M_yxmQ0FWPlXXe3hZhzNcQ5wHJo4qkm2bSeJxc=v1-rw-w1500");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.two {
+  height: 50vh;
+  text-align: center;
+  background-image: url("https://lh3.googleusercontent.com/jqq95TpZfsH8Ky_SCG8K4T0wfy-uPkzUeGFr_GxyqJsSowRNFvcvdg34z9WOX76QMO7tLQbsqQ4fhFvekZEPOA=v1-rw-w1500");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.three {
+  height: 50vh;
+  text-align: center;
+  background-image: url("https://lh3.googleusercontent.com/hDrA0c6fusEWXAxyHQNhzhR0F1AaWpmicxwH0hsALbmpaAjfbbEqDTBH3FcPoEI_qYHxpBUXJF6dO6M61l5e=v1-rw-w1425");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
